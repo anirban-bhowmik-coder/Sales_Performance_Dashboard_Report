@@ -1,0 +1,152 @@
+# 📊 Sales Performance Dashboard
+
+> **Transforming raw sales data into actionable business insights.**
+
+An interactive Business Intelligence dashboard built using **Python, Streamlit, Pandas and Plotly**. Analyze sales performance, monitor KPIs, explore regional trends and visualize business insights through an intuitive dashboard.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?logo=streamlit)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?logo=plotly)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+---
+
+## 🚀 Project Overview
+
+The Sales Performance Dashboard converts raw sales CSV files into meaningful visual insights.
+
+Users can upload their own datasets or explore built-in demonstration data, apply dynamic filters, monitor key performance indicators and download filtered records.
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 📁 CSV Upload | Upload custom sales datasets |
+| 📈 KPI Cards | Track sales, profit, orders and profit margin |
+| 📊 Interactive Charts | Explore five dynamic Plotly visualizations |
+| 🔍 Smart Filters | Filter by date, region and category |
+| 🧹 Data Cleaning | Automatic validation and preprocessing |
+| 📋 Data Explorer | View filtered records |
+| 📥 CSV Export | Download filtered datasets |
+| 🎨 Custom UI | Clean interface with a consistent light theme |
+
+## 📊 Dashboard Analytics
+
+The dashboard includes five interactive visualizations:
+
+1. **Monthly Sales Trend** – Analyze revenue over time.
+2. **Sales by Category** – Compare product category performance.
+3. **Sales by Segment** – Understand customer segment contributions.
+4. **Sales by Region** – Compare geographical sales performance.
+5. **Profit by Category** – Identify the most profitable categories.
+
+## 📸 Dashboard Preview
+
+<!-- Add your actual screenshots here -->
+
+> Screenshots coming soon.
+
+## 🛠️ Tech Stack
+
+- **Python 3** – Core programming language
+- **Streamlit** – Dashboard interface
+- **Pandas** – Data processing and analysis
+- **Plotly Express** – Interactive data visualization
+- **Custom CSS** – UI styling
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/anirban-bhowmik-coder/Sales-Performance-Dashboard.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd Sales-Performance-Dashboard
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install streamlit pandas plotly
+```
+
+### 4. Verify Project Structure
+
+```text
+Sales-Performance-Dashboard/
+│
+├── .streamlit/
+│   └── config.toml
+│
+├── Sales_Performance_Dashboard.py
+├── Stock_Market_Practice_Dataset.csv
+└── README.md
+```
+
+**Important:** Keep the `.streamlit` folder next to the Python file. The `config.toml` configuration forces the light theme to maintain a consistent and readable interface, including the data table.
+
+### 5. Run the Application
+
+```bash
+streamlit run Sales_Performance_Dashboard.py
+```
+
+The dashboard will automatically open in your default browser.
+
+## 📂 Dataset Requirements
+
+Your CSV file must contain these seven columns:
+
+| Column | Purpose |
+|---|---|
+| Order ID | Unique order identification |
+| Order Date | Transaction date |
+| Sales | Revenue generated |
+| Profit | Profit earned |
+| Category | Product category |
+| Region | Sales region |
+| Segment | Customer segment |
+
+The application automatically handles header normalization, date conversion, numeric formatting, missing values and data validation.
+
+## 📌 Sample Insights
+
+The built-in demonstration dataset contains 100 synthetic orders.
+
+| KPI | Demo Value |
+|---|---:|
+| Total Sales | $143,150 |
+| Total Profit | $27,350 |
+| Total Orders | 100 |
+| Profit Margin | 19.11% |
+
+**Key Findings:**
+
+- Furniture generates the highest sales.
+- Technology generates the highest profit.
+- Central is the highest-performing region.
+- June 2022 records the highest monthly sales.
+
+*Note: These figures are based on synthetic demo data. Actual results depend on the uploaded dataset.*
+
+## 🧠 Application Workflow
+
+```text
+       CSV INPUT
+           |
+           v
+      DATA CLEANING
+           |
+           v
+      DATA FILTERING
+           |
+           v
+     KPI CALCULATIONS
+           |
+           v
+   INTER
