@@ -149,4 +149,36 @@ The built-in demonstration dataset contains 100 synthetic orders.
      KPI CALCULATIONS
            |
            v
-   INTER
+   INTERACTIVE CHARTS
+           |
+           v
+     DATA EXPORT
+```
+
+## 🔮 Future Improvements
+
+- [ ] Machine Learning-based sales forecasting
+- [ ] Year-over-year performance comparison
+- [ ] Custom dataset column mapping
+- [ ] User authentication
+- [ ] Advanced business intelligence metrics
+
+## 👥 Project Contributors
+
+**Group Project – Business Intelligence and Sales Analytics**
+
+| Name | Enrolment ID |
+|---|---|
+| Yash Jain | 25SCS1003000621 |
+| Jahnvi Verma | 25SCS1003005395 |
+| Tanishq Ahuja | 25SCS1003000590 |
+| Anirban Bhowmik | 25SCS1003005398 |
+| Vansh Dhangar | 25SCS1003002263 |
+
+---
+
+## ⭐ Support
+
+If you find this project interesting, consider giving this repository a star!
+
+**Built with Python ❤️ and a passion for Data Analytics.**
